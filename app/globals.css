@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Rubik&family=Ysabeau:ital,wght@0,300;0,500;1,300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}
