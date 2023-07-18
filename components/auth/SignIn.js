@@ -30,7 +30,8 @@ const SignIn = () => {
       Cookies.remove("user");
     }
   }, []);
-  const handleSubmit = (e) => {
+
+   const handleSubmit = (e) => {
     e.preventDefault();
 
     signInWithEmailAndPassword(auth, userData.email, userData.password)
