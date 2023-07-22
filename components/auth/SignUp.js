@@ -127,7 +127,7 @@ const SignUp = () => {
           />
         </div>
 
-        <div>
+        <div className = "mt-5">
           <button className="bg-pink-600  rounded-lg p-1 w-[100px] text-white z-0 hover:bg-pink-300 cursor-pointer">
             Sign up
           </button>
