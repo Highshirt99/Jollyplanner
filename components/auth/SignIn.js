@@ -60,7 +60,7 @@ const SignIn = () => {
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <h5>Sign In</h5>
         <div className="flex flex-col mt-4">
-          <label htmlFor="email" className="text-gray-600">
+          <label htmlFor="email" className="text-gray-600 mt-2">
             Email
           </label>
           <input
@@ -71,7 +71,7 @@ const SignIn = () => {
           />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="password" className="text-gray-600">
+          <label htmlFor="password" className="text-gray-600 mt-2">
             Password
           </label>
           <input
@@ -83,7 +83,7 @@ const SignIn = () => {
           />
         </div>
 
-        <div className = "mt-5">
+        <div className = "mt-2">
           <button className="bg-pink-600  rounded-lg p-1 w-[100px] text-white z-0 hover:bg-pink-300 cursor-pointer">
             Login
           </button>

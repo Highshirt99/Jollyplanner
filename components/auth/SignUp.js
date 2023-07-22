@@ -81,7 +81,7 @@ const SignUp = () => {
       <form onSubmit={handleSubmit} className="flex flex-col gap-4 lg:w-[100%]">
         <h5>Sign Up</h5>
         <div className="flex flex-col mt-4">
-          <label htmlFor="firstName" className="text-gray-600">
+          <label htmlFor="firstName" className="text-gray-600 mt-2">
             First Name
           </label>
           <input
@@ -93,7 +93,7 @@ const SignUp = () => {
           />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="lastName" className="text-gray-600">
+          <label htmlFor="lastName" className="text-gray-600 mt2">
             Last Name
           </label>
           <input
@@ -105,7 +105,7 @@ const SignUp = () => {
           />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="email" className="text-gray-600">
+          <label htmlFor="email" className="text-gray-600 mt-2">
             Email
           </label>
           <input
@@ -116,7 +116,7 @@ const SignUp = () => {
           />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="password" className="text-gray-600">
+          <label htmlFor="password" className="text-gray-600 mt-2">
             Password
           </label>
           <input
@@ -127,13 +127,13 @@ const SignUp = () => {
           />
         </div>
 
-        <div className = "mt-5">
+        <div className = "mt-2">
           <button className="bg-pink-600  rounded-lg p-1 w-[100px] text-white z-0 hover:bg-pink-300 cursor-pointer">
             Sign up
           </button>
         </div>
       </form>
-      {error && <p className="text-center text-red-500">{error}</p>}
+      {error && <p className="text-center text-red-500 ">{error}</p>}
     </div>
   );
 };
