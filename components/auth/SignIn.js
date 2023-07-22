@@ -59,7 +59,7 @@ const SignIn = () => {
     <div className=" mt-[20%] w-[90%] lg:mt-[15%] tab:mt-[12%] h-[300px] tab:w-[60%] mx-auto lg:w-[60%] bg-white px-[2rem] py-[2rem] lg:px-[7rem] ">
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <h5>Sign In</h5>
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-4">
           <label htmlFor="email" className="text-gray-600">
             Email
           </label>

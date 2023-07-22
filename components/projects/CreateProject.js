@@ -71,7 +71,7 @@ const CreateProject = () => {
     <div className=" mt-[20%] w-[90%] lg:mt-[15%] h-[300px] tab:w-[60%]  tab:mt-[12%] mx-auto  lg:w-[50%] bg-white px-[2rem] py-[2rem] lg:px-[7rem] ">
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <h5>Create Project</h5>
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-4">
           <label htmlFor="title" className="text-gray-600">
             Title
           </label>

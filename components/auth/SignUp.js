@@ -80,7 +80,7 @@ const SignUp = () => {
     <div className="w-[90%] mt-[20%] tab:mt-[12%] tab:w-[60%] mx-auto lg:mt-[10%] bg-white px-[2rem] py-[2rem] lg:px-[7rem]  lg:w-[50%]">
       <form onSubmit={handleSubmit} className="flex flex-col gap-4 lg:w-[100%]">
         <h5>Sign Up</h5>
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-4">
           <label htmlFor="firstName" className="text-gray-600">
             First Name
           </label>
