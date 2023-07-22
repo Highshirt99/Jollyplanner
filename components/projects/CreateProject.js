@@ -72,7 +72,7 @@ const CreateProject = () => {
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <h5>Create Project</h5>
         <div className="flex flex-col mt-4">
-          <label htmlFor="title" className="text-gray-600 mt-2">
+          <label htmlFor="title" className="mt-2 text-gray-600">
             Title
           </label>
           <input
@@ -84,7 +84,7 @@ const CreateProject = () => {
           />
         </div>
         <div className="flex flex-col">
-          <label htmlFor="content" className="text-gray-600 mt-2">
+          <label htmlFor="content" className="mt-2 text-gray-600">
             Project Content
           </label>
           <textarea
@@ -96,7 +96,7 @@ const CreateProject = () => {
           />
         </div>
 
-        <div className = "mt-1">
+        <div className = "mt-3 lg:mt-1">
           <button className="bg-pink-600  rounded-lg p-1 w-[100px] text-white z-0 hover:bg-pink-300 cursor-pointer">
             Create
           </button>
