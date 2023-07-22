@@ -4,7 +4,7 @@ import moment from "moment";
 const ProjectSummary = ({ project }) => {
 
   return (
-    <div className="cursor-pointer z-0 project-summary bg-white rounded-md min-h-[120px] h-auto p-4">
+    <div className="cursor-pointer z-0 mb-4 bg-white rounded-md min-h-[120px] h-auto p-4">
       <div className="flex flex-col gap-3 text-grey-500">
         <span className="text-[15px]">{project.title}</span>
         <div>
