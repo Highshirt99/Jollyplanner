@@ -56,7 +56,8 @@ const SignIn = () => {
   };
 
   return (
-    <div className=" mt-[20%] w-[90%] lg:mt-[15%] tab:mt-[12%] h-[300px] tab:w-[60%] mx-auto lg:w-[60%] bg-white px-[2rem] py-[2rem] lg:px-[7rem] ">
+    <div className=" mt-[20%] w-[90%] lg:mt-[15%] tab:mt-[12%] h-[32
+    0px] tab:w-[60%] mx-auto lg:w-[60%] bg-white px-[2rem] py-[2rem] lg:px-[7rem] ">
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <h5>Sign In</h5>
         <div className="flex flex-col mt-4">
